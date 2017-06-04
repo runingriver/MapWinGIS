@@ -1,0 +1,42 @@
+NOTES ON MODIFICATION OF EPSG COORDINATE SYSTEM DATABASE TO USE WITH MAPWINDOW 4.
+
+1. Create MS Access database: EPSG Projections.mdb (Access 2003 format).
+2. From existing EPSG database copy 2 tables (both structure and data): 
+- Area;
+- Coordinate Reference System.
+3. Import to worksheets from the EPSG Projection.xls file:
+- Countries;
+- ProjectionType.
+
+The following fields should be imported from countries:
+COUNTRY_CODE   integer    primary key
+COUNTRY_NAME   string
+PARENT_CODE    integer
+LEVEL          integer
+
+The following fields should be imported from ProjectionType:
+CODE - CRS   	 integer  primary key
+PROJECTION_TYPE  string
+LOCAL		 boolean
+
+4. Create table [Country by Area] with fields:
+AREA_CODE      integer    primary key
+COUNTRY_CODE   integer    primary key
+REGION         boolean
+
+5. Copy records from EPSG Projection.xls in the table [Country by Area].
+
+6. Run procedure FillCountryByArea from EPSG Reference C# project. 
+(It's avialable from main toolbar).
+
+7. Set relations between tables (see attached screenshot).
+
+8. Add the following queries:
+
+- Coordinate system;
+- Country by Coordinate system.
+
+See text in database.
+
+9. Add proj4 column to Coordinate reference systems table. Fill the column with:
+MapWindow.Countrols.ProjectionDatabase.UpdateProj4

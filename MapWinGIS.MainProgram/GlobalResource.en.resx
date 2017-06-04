@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msgDataSubmitted_Text" xml:space="preserve">
+    <value>Thank you! The data has been submitted.</value>
+  </data>
+  <data name="PluginPropertyAuthor_Text" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="PluginPropertyBuildDate_Text" xml:space="preserve">
+    <value>Build Date:</value>
+  </data>
+  <data name="PluginPropertyDescription_Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="PluginPropertyName_Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="PluginPropertyVersion_Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="LegendName_Text" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="mnuNew_Text" xml:space="preserve">
+    <value>New(&amp;N)</value>
+  </data>
+  <data name="mnuOpen_Text" xml:space="preserve">
+    <value>Open(&amp;O)</value>
+  </data>
+  <data name="mnuOpenProjectIntoGroup_Text" xml:space="preserve">
+    <value>Open Project Into Group(&amp;G)</value>
+  </data>
+  <data name="mnuProject_Text" xml:space="preserve">
+    <value>File(&amp;F)</value>
+  </data>
+  <data name="mnuAboutMapWindow_Text" xml:space="preserve">
+    <value>About(&amp;A)...</value>
+  </data>
+  <data name="mnuAddECWPLayer_Text" xml:space="preserve">
+    <value>Add ECWP Layer(&amp;A)</value>
+  </data>
+  <data name="mnuAddLayer_Text" xml:space="preserve">
+    <value>Add Layer(&amp;A)</value>
+  </data>
+  <data name="mnuBookmarks_Text" xml:space="preserve">
+    <value>Bookmark(&amp;B)</value>
+  </data>
+  <data name="mnuBookmarksManager_Text" xml:space="preserve">
+    <value>Bookmark Manager(&amp;M)</value>
+  </data>
+  <data name="mnuBookmarkView_Text" xml:space="preserve">
+    <value>View Bookmark(&amp;V)</value>
+  </data>
+  <data name="mnuCheckUpdates_Text" xml:space="preserve">
+    <value>Check For Update(&amp;R)</value>
+  </data>
+  <data name="mnuClearAllSelection_Text" xml:space="preserve">
+    <value>Clear All Selected(&amp;K)</value>
+  </data>
+  <data name="mnuClearLayer_Text" xml:space="preserve">
+    <value>Clear All Layers(&amp;L)</value>
+  </data>
+  <data name="mnuClearPreview_Text" xml:space="preserve">
+    <value>Clear Preview(&amp;P)</value>
+  </data>
+  <data name="mnuClearSelectedShapes_Text" xml:space="preserve">
+    <value>Clear Selected Shapes(&amp;K)</value>
+  </data>
+  <data name="mnuContents_Text" xml:space="preserve">
+    <value>Help Content(&amp;C)</value>
+  </data>
+  <data name="mnuCopy_Text" xml:space="preserve">
+    <value>Copy(&amp;C)</value>
+  </data>
+  <data name="mnuCopyLegend_Text" xml:space="preserve">
+    <value>CopyLegend(&amp;L)</value>
+  </data>
+  <data name="mnuCopyMap_Text" xml:space="preserve">
+    <value>CopyMap(&amp;M)</value>
+  </data>
+  <data name="mnuCopyNorthArrow_Text" xml:space="preserve">
+    <value>CopyNorthArrow(&amp;N)</value>
+  </data>
+  <data name="mnuCopyScaleBar_Text" xml:space="preserve">
+    <value>CopyScaleBar(&amp;S)</value>
+  </data>
+  <data name="mnuEditPlugins_Text" xml:space="preserve">
+    <value>EditPlugins(&amp;E)</value>
+  </data>
+  <data name="mnuExit_Text" xml:space="preserve">
+    <value>Exit(&amp;E)</value>
+  </data>
+  <data name="mnuExport_Text" xml:space="preserve">
+    <value>MapExport(&amp;O)</value>
+  </data>
+  <data name="mnuHelp_Text" xml:space="preserve">
+    <value>Help(&amp;H)</value>
+  </data>
+  <data name="mnuLayer_Text" xml:space="preserve">
+    <value>Layer(&amp;L)</value>
+  </data>
+  <data name="mnuLayerAttributeTable_Text" xml:space="preserve">
+    <value>LayerAttributeTable(&amp;T)</value>
+  </data>
+  <data name="mnuLayerCategories_Text" xml:space="preserve">
+    <value>Shapefile Categories(&amp;M)</value>
+  </data>
+  <data name="mnuLayerCharts_Text" xml:space="preserve">
+    <value>LayerCharts(&amp;C)</value>
+  </data>
+  <data name="mnuLayerLabels_Text" xml:space="preserve">
+    <value>LayerLabels(&amp;P)</value>
+  </data>
+  <data name="mnuLayerProperties_Text" xml:space="preserve">
+    <value>LayerProperties&amp;L)</value>
+  </data>
+  <data name="mnuLayerRelabel_Text" xml:space="preserve">
+    <value>LayerRelabel(&amp;R)</value>
+  </data>
+  <data name="mnuNextZoom_Text" xml:space="preserve">
+    <value>NextZoom(&amp;U)</value>
+  </data>
+  <data name="mnuOfflineDocs_Text" xml:space="preserve">
+    <value>Local Documents&amp;L)</value>
+  </data>
+  <data name="mnuOnlineDocs_Text" xml:space="preserve">
+    <value>Online Documents(&amp;O)</value>
+  </data>
+  <data name="mnuOptionsManager_Text" xml:space="preserve">
+    <value>Symbology Manager(&amp;S)</value>
+  </data>
+  <data name="mnuPanels_Text" xml:space="preserve">
+    <value>Windows(&amp;F)</value>
+  </data>
+  <data name="mnuPlugins_Text" xml:space="preserve">
+    <value>Plugins(&amp;P)</value>
+  </data>
+  <data name="mnuPreview_Text" xml:space="preserve">
+    <value>Preview Map(&amp;P)</value>
+  </data>
+  <data name="mnuPreviousZoom_Text" xml:space="preserve">
+    <value>Zoom Previous(&amp;B)</value>
+  </data>
+  <data name="mnuPrint_Text" xml:space="preserve">
+    <value>Print(&amp;P)</value>
+  </data>
+  <data name="mnuProjectSettings_Text" xml:space="preserve">
+    <value>Project Settings(&amp;C)</value>
+  </data>
+  <data name="mnuQueryLayer_Text" xml:space="preserve">
+    <value>Create Query(&amp;Q)</value>
+  </data>
+  <data name="mnuRecentProjects_Text" xml:space="preserve">
+    <value>Recent Projects(&amp;L)</value>
+  </data>
+  <data name="mnuRemoveLayer_Text" xml:space="preserve">
+    <value>Remove Layer(&amp;D)</value>
+  </data>
+  <data name="mnuSave_Text" xml:space="preserve">
+    <value>Save(&amp;S)</value>
+  </data>
+  <data name="mnuSaveAs_Text" xml:space="preserve">
+    <value>Svae as...(&amp;A)</value>
+  </data>
+  <data name="mnuSaveGeorefMapImage_Text" xml:space="preserve">
+    <value>Save Georef MapImage(&amp;G)</value>
+  </data>
+  <data name="mnuSaveLegend_Text" xml:space="preserve">
+    <value>Legend(&amp;L)</value>
+  </data>
+  <data name="mnuSaveMapImage_Text" xml:space="preserve">
+    <value>Map(&amp;M)</value>
+  </data>
+  <data name="mnuSaveNorthArrow_Text" xml:space="preserve">
+    <value>SaveNorthArrow(&amp;N)</value>
+  </data>
+  <data name="mnuSaveScaleBar_Text" xml:space="preserve">
+    <value>SaveScaleBar(&amp;S)</value>
+  </data>
+  <data name="mnuScript_Text" xml:space="preserve">
+    <value>Script(&amp;S)</value>
+  </data>
+  <data name="mnuSetScale_Text" xml:space="preserve">
+    <value>Set Scale(&amp;R)</value>
+  </data>
+  <data name="mnuShortcuts_Text" xml:space="preserve">
+    <value>Short Cuts(&amp;S)</value>
+  </data>
+  <data name="mnuShowLegend_Text" xml:space="preserve">
+    <value>Legend(&amp;L)</value>
+  </data>
+  <data name="mnuShowPreviewMap_Text" xml:space="preserve">
+    <value>Preview Map(&amp;P)</value>
+  </data>
+  <data name="mnuShowScaleBar_Text" xml:space="preserve">
+    <value>Show ScaleBar(&amp;S)</value>
+  </data>
+  <data name="mnuUpdatePreviewCurr_Text" xml:space="preserve">
+    <value>Update Preview Current View(&amp;C)</value>
+  </data>
+  <data name="mnuUpdatePreviewFull_Text" xml:space="preserve">
+    <value>Update Preview Full View(&amp;E)</value>
+  </data>
+  <data name="mnuWelcomeScreen_Text" xml:space="preserve">
+    <value>Welcome Screen(&amp;W)</value>
+  </data>
+  <data name="mnuZoomIn_Text" xml:space="preserve">
+    <value>Zoom In(&amp;I)</value>
+  </data>
+  <data name="mnuZoomOut_Text" xml:space="preserve">
+    <value>Zoom Out(&amp;O)</value>
+  </data>
+  <data name="mnuZoomToFullExtents_Text" xml:space="preserve">
+    <value>Extents(&amp;F)</value>
+  </data>
+  <data name="mnuZoomToPreviewExtents_Text" xml:space="preserve">
+    <value>Zoom To PreviewMap Extents(&amp;Y)</value>
+  </data>
+  <data name="mnuView_Text" xml:space="preserve">
+    <value>View(&amp;V)</value>
+  </data>
+  <data name="mnuBugReport_Text" xml:space="preserve">
+    <value>Reports a bug(&amp;B)</value>
+  </data>
+  <data name="mnuPluginUpLoading_Text" xml:space="preserve">
+    <value>Uploading Plugins(&amp;U)</value>
+  </data>
+  <data name="mnuTutorials_Text" xml:space="preserve">
+    <value>Tutorials(&amp;G)</value>
+  </data>
+  <data name="msgShortcutsArrowDown_Text" xml:space="preserve">
+    <value>Down Arrow - 向下移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowLeft_Text" xml:space="preserve">
+    <value>Left Arrow - 向左移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowRight_Text" xml:space="preserve">
+    <value>Right Arrow - 向右移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowUp_Text" xml:space="preserve">
+    <value>Up Arrow - 向上移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsBackspace_Text" xml:space="preserve">
+    <value>BackSpace : 返回到上一次操作</value>
+  </data>
+  <data name="msgShortcutsCtrlArrows_Text" xml:space="preserve">
+    <value>Ctrl+UP, Ctrl+Down : 在Legend中转换选择的层 </value>
+  </data>
+  <data name="msgShortcutsCtrlC_Text" xml:space="preserve">
+    <value>Ctrl+C - 复制当前地图图像到剪贴板</value>
+  </data>
+  <data name="msgShortcutsCtrlEnter_Text" xml:space="preserve">
+    <value>Ctrl+Enter : 图层属性</value>
+  </data>
+  <data name="msgShortcutsCtrlF4_Text" xml:space="preserve">
+    <value>Ctrl+F4 - 关闭当前的项目</value>
+  </data>
+  <data name="msgShortcutsCtrlHome_Text" xml:space="preserve">
+    <value>Ctrl+Home - 移动到当前选择的层</value>
+  </data>
+  <data name="msgShortcutsCtrlH_Text" xml:space="preserve">
+    <value>Ctrl+H - 选择Shape/高亮显示该选择区域</value>
+  </data>
+  <data name="msgShortcutsCtrlI_Text" xml:space="preserve">
+    <value>Ctrl+I - 进入地图放大模式</value>
+  </data>
+  <data name="msgShortcutsCtrlO_Text" xml:space="preserve">
+    <value>Ctrl+O - 进入地图缩小模式</value>
+  </data>
+  <data name="msgShortcutsCtrlP_Text" xml:space="preserve">
+    <value>Ctrl+P - 打印</value>
+  </data>
+  <data name="msgShortcutsCtrlShiftI_Text" xml:space="preserve">
+    <value>Ctrl+Shift+I - 特征标识符模式</value>
+  </data>
+  <data name="msgShortcutsCtrlShiftO_Text" xml:space="preserve">
+    <value>Ctrl+Shift+O - 打开一个项目</value>
+  </data>
+  <data name="msgShortcutsCtrlM_Text" xml:space="preserve">
+    <value>Ctrl+M - 进入移动地图模式</value>
+  </data>
+  <data name="msgShortcutsCtrlSpace_Text" xml:space="preserve">
+    <value>Ctrl+Space : 在图层上启动可见性</value>
+  </data>
+  <data name="msgShortcutsCtrlS_Text" xml:space="preserve">
+    <value>Ctrl+S - 保存项目</value>
+  </data>
+  <data name="msgShortcutsDel_Text" xml:space="preserve">
+    <value>Delete - 移除当前选择的图层</value>
+  </data>
+  <data name="msgShortcutsHome_Text" xml:space="preserve">
+    <value>Home - 复位</value>
+  </data>
+  <data name="msgShortcutsIns_Text" xml:space="preserve">
+    <value>Insert - 添加一个图层</value>
+  </data>
+  <data name="msgShortcutsMinus_Text" xml:space="preserve">
+    <value>Minus - 以屏幕中心为基点缩小(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsPageDown_Text" xml:space="preserve">
+    <value>PageDown - 向下移动地图(视野的50%)</value>
+  </data>
+  <data name="msgShortcutsPageUp_Text" xml:space="preserve">
+    <value>PageUp - 向上移动地图(视野的50%)</value>
+  </data>
+  <data name="msgShortcutsPlus_Text" xml:space="preserve">
+    <value>Plus - 以屏幕中心为基点放大(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsTitle_Text" xml:space="preserve">
+    <value>可用快捷键如下：</value>
+  </data>
+  <data name="mnuBookmarkAdd_Text" xml:space="preserve">
+    <value>Add Bookmark(&amp;A)</value>
+  </data>
+  <data name="msgSaveProject1_Text" xml:space="preserve">
+    <value>Do you want to save the changes to</value>
+  </data>
+  <data name="msgSaveProject2_Text" xml:space="preserve">
+    <value>this project?</value>
+  </data>
+  <data name="msgHandleShortcutKeys_Text" xml:space="preserve">
+    <value>Are you sure you wish to remove the currently selected layer?</value>
+  </data>
+  <data name="msgPanelArea_Text" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+  <data name="msgPanelDistance_Text" xml:space="preserve">
+    <value>Distance:</value>
+  </data>
+  <data name="msgShortcutsCtrlR_Text" xml:space="preserve">
+    <value>Ctrl+R - 复位</value>
+  </data>
+  <data name="msgShortcutsCtrlY_Text" xml:space="preserve">
+    <value>Ctrl+Y - 前进</value>
+  </data>
+  <data name="msgShortcutsCtrlZ_Text" xml:space="preserve">
+    <value>Ctrl+Z - 后退</value>
+  </data>
+  <data name="msgProjectInsufficientAccess_Text" xml:space="preserve">
+    <value>The project file could not be saved due to insufficient access
+
+Please have your system administrator grant access to the file:
+{0}
+Please have your system administrator grant access to the file:
+{0}</value>
+  </data>
+  <data name="msgProjectInsufficientAccess_Title" xml:space="preserve">
+    <value>Insufficient Access</value>
+  </data>
+  <data name="msgProjectReadOnly_Text" xml:space="preserve">
+    <value>The project file could not be saved because it is read-only
+
+Please have your system administrator grant write access to the file:
+{0}</value>
+  </data>
+  <data name="msgProjectReadOnly_Title" xml:space="preserve">
+    <value>Read-Only Project File</value>
+  </data>
+  <data name="sbContextMenu_ChangeUnits_Text" xml:space="preserve">
+    <value>Change Display Units</value>
+  </data>
+  <data name="sbContextMenu_ChooseBackcolor_Text" xml:space="preserve">
+    <value>Choose Background Color</value>
+  </data>
+  <data name="sbContextMenu_ChooseForecolor_Text" xml:space="preserve">
+    <value>Choose Text Color</value>
+  </data>
+  <data name="sbContextMenu_LowerLeft_Text" xml:space="preserve">
+    <value>Place in Lower Left</value>
+  </data>
+  <data name="sbContextMenu_LowerRight_Text" xml:space="preserve">
+    <value>Place in Lower Right</value>
+  </data>
+  <data name="sbContextMenu_UpperLeft_Text" xml:space="preserve">
+    <value>Place in Upper Left</value>
+  </data>
+  <data name="sbContextMenu_UpperRight_Text" xml:space="preserve">
+    <value>Place in Upper Right</value>
+  </data>
+  <data name="mnuRemoveGroup_Text" xml:space="preserve">
+    <value>Remove Group</value>
+  </data>
+  <data name="mnuZoomToGroup_Text" xml:space="preserve">
+    <value>Zoom To Group</value>
+  </data>
+  <data name="mnuZoomToLayer_Text" xml:space="preserve">
+    <value>Zoom To Layer</value>
+  </data>
+  <data name="msgDropMissingLayer_Text" xml:space="preserve">
+    <value>One of the layers in the project was not found. The file that couldn't be located is: 
+{0} 
+Would you like to locate this file?
+
+No will simply drop the layer from the project, Cancel will drop all missing layers.</value>
+  </data>
+  <data name="msgDropMissingLayer_Title" xml:space="preserve">
+    <value>Missing Layer {0}</value>
+  </data>
+  <data name="mnuLanguages_Text" xml:space="preserve">
+    <value>Language(&amp;L)</value>
+  </data>
+</root>

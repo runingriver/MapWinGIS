@@ -1,0 +1,7 @@
+<Mapwin type="configurationfile" version="1.1.1">
+  <AppInfo Name="MapWinGIS" Version="1.1.1" BuildDate="" Developer="MapWinGIS Team" Comments="" HelpFilePath="..\help\MapWinGIS.chm" UseSplashScreen="" SplashTime="2" DefaultDir="..\Program Files (x86)\MapWindow\Sample Projects\World\Shapefiles" URL="http://www.baidu.com" ShowWelcomeScreen="True" WelcomePlugin="" NeverShowProjectionDialog="False" NoPromptToSendErrors="False" LogfilePath="D:\GIS\MapWinGIS\MapWinGIS\bin\Log" ShowDynVisWarnings="True" ShowLayerAfterDynVis="True" SymbologyLoadingBehavior="DefaultOptions" ProjectionMismatchBehavior="Reproject" ProjectionAbsenceBehavior="AssignFromProject" ShowLoadingReport="True" ProjectReloading="False" DisplayFloatingScalebar="False" DisplayRedrawSpeed="False" DisplayMapWinGISVersion="True" DisplayAvoidCollision="False" DisplayAutoCreatespatialindex="False" />
+  <RecentProjects />
+  <View LabelsUseProjectLevel="False" TransparentSelection="True" WindowWidth="1008" WindowHeight="625" LocationX="179" LocationY="51" WindowState="0" ViewBackColor="16777215" LoadTIFFandIMGasgrid="Automatic" LoadESRIAsGrid="LoadAsGrid" MouseWheelBehavior="NoAction" LegendVisible="True" PreviewVisible="True" />
+  <Plugins />
+  <ColorPalettes />
+</Mapwin>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+mwTauDem
+</name>
+</assembly>
+<members>
+<member name="F:mwTauDem.frmDropAnalysis.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmDropAnalysis.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmDropAnalysis.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmDropAnalysisStreamDef.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmDropAnalysisStreamDef.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmDropAnalysisStreamDef.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmSlopeAverageDown.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmSlopeAverageDown.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmSlopeAverageDown.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmSlopeArea.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmSlopeArea.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmSlopeArea.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="M:mwTauDem.mTardem.CopyProjection(System.String,System.String)">
+	<summary>
+ Makes a projection file for file2 by copying that for file1
+ </summary>
+	<param name="file1"></param>
+	<param name="file2"></param>
+</member><member name="F:mwTauDem.frmThreshold.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmThreshold.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmThreshold.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmMoveOutlets.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmMoveOutlets.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmMoveOutlets.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmD8FlowPathExtremeUp.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmD8FlowPathExtremeUp.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmD8FlowPathExtremeUp.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmLengthArea.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmLengthArea.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmLengthArea.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmDinfDistDown.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmDinfDistDown.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmDinfDistDown.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmSlopeAreaStreamDef.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmSlopeAreaStreamDef.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmSlopeAreaStreamDef.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmAvalanche.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmAvalanche.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmAvalanche.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmPKStreamDef.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmPKStreamDef.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmPKStreamDef.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmDinfDistUp.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmDinfDistUp.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmDinfDistUp.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member><member name="F:mwTauDem.frmPK.components">
+	<summary>
+ Designer variable used to keep track of non-visual components.
+ </summary>
+</member><member name="M:mwTauDem.frmPK.Dispose(System.Boolean)">
+	<summary>
+ Disposes resources used by the form.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:mwTauDem.frmPK.InitializeComponent">
+	<summary>
+ This method is required for Windows Forms designer support.
+ Do not change the method contents inside the source code editor. The Forms designer might
+ not be able to load this method if it was changed manually.
+ </summary>
+</member>
+</members>
+</doc>

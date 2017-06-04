@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imgGroupAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\group_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMapScale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\map_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgOpenGroup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file_newgroup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgScale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\scale_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPlugin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\plugin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group_expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\group_expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLayerRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMetadata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\metadata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deselect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\deselect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgBookmarkView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bookmark_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgCollapseAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\collapse_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgTableEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgZoomToLayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_to_layer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\label_setup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgWelcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AppSetting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgGroupRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\group_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgCopyLegend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\copy_legend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPluginSub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\plugin_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgScripts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\scripts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="label_properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\label_properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgExpandAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\expand_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMapPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\map_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPluginDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\plugin_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgFlash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lightning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group_collapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\group_collapse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgSaveAs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file_saveas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgBookmarkDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bookmark_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRelabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\label_relabel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPluginEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\plugin_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgBookmarkAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bookmark_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgZoomExtent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZoomFullExtent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\saveNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgPrinter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLayerClear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLayerAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMapExtents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\map_extents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\selectNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKeyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Keyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgDataSubmitted_Text" xml:space="preserve">
+    <value>谢谢！您的数据提交成功。</value>
+  </data>
+  <data name="imgHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\History.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PluginPropertyAuthor_Text" xml:space="preserve">
+    <value>作 者:</value>
+  </data>
+  <data name="PluginPropertyBuildDate_Text" xml:space="preserve">
+    <value>时 间:</value>
+  </data>
+  <data name="PluginPropertyDescription_Text" xml:space="preserve">
+    <value>描 述:</value>
+  </data>
+  <data name="PluginPropertyName_Text" xml:space="preserve">
+    <value>名 称:</value>
+  </data>
+  <data name="PluginPropertyVersion_Text" xml:space="preserve">
+    <value>版 本:</value>
+  </data>
+  <data name="LegendName_Text" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="mnuNew_Text" xml:space="preserve">
+    <value>新建(&amp;N)</value>
+  </data>
+  <data name="mnuOpen_Text" xml:space="preserve">
+    <value>打开(&amp;O)</value>
+  </data>
+  <data name="mnuOpenProjectIntoGroup_Text" xml:space="preserve">
+    <value>从新的组中打开项目(&amp;G)</value>
+  </data>
+  <data name="mnuProject_Text" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="documentation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\documentation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\legend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mantis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuAboutMapWindow_Text" xml:space="preserve">
+    <value>关于(&amp;A)...</value>
+  </data>
+  <data name="mnuAddECWPLayer_Text" xml:space="preserve">
+    <value>添加ECWP图层(&amp;A)</value>
+  </data>
+  <data name="mnuAddLayer_Text" xml:space="preserve">
+    <value>添加图层(&amp;A)</value>
+  </data>
+  <data name="mnuBookmarks_Text" xml:space="preserve">
+    <value>书签(&amp;B)</value>
+  </data>
+  <data name="mnuBookmarksManager_Text" xml:space="preserve">
+    <value>书签管理(&amp;M)</value>
+  </data>
+  <data name="mnuBookmarkView_Text" xml:space="preserve">
+    <value>查看书签(&amp;V)</value>
+  </data>
+  <data name="mnuCheckUpdates_Text" xml:space="preserve">
+    <value>检查更新(&amp;R)</value>
+  </data>
+  <data name="mnuClearAllSelection_Text" xml:space="preserve">
+    <value>清空全部选择(&amp;K)</value>
+  </data>
+  <data name="mnuClearLayer_Text" xml:space="preserve">
+    <value>清空所有图层(&amp;L)</value>
+  </data>
+  <data name="mnuClearPreview_Text" xml:space="preserve">
+    <value>清除预览(&amp;P)</value>
+  </data>
+  <data name="mnuClearSelectedShapes_Text" xml:space="preserve">
+    <value>清空当前层选择的Shapes(&amp;K)</value>
+  </data>
+  <data name="mnuContents_Text" xml:space="preserve">
+    <value>帮助内容(&amp;C)</value>
+  </data>
+  <data name="mnuCopy_Text" xml:space="preserve">
+    <value>复制(&amp;C)</value>
+  </data>
+  <data name="mnuCopyLegend_Text" xml:space="preserve">
+    <value>图符(Legend)(&amp;L)</value>
+  </data>
+  <data name="mnuCopyMap_Text" xml:space="preserve">
+    <value>地图(&amp;M)</value>
+  </data>
+  <data name="mnuCopyNorthArrow_Text" xml:space="preserve">
+    <value>方向针(&amp;N)</value>
+  </data>
+  <data name="mnuCopyScaleBar_Text" xml:space="preserve">
+    <value>范围条(&amp;S)</value>
+  </data>
+  <data name="mnuEditPlugins_Text" xml:space="preserve">
+    <value>编辑插件(&amp;E)</value>
+  </data>
+  <data name="mnuExit_Text" xml:space="preserve">
+    <value>退出(&amp;E)</value>
+  </data>
+  <data name="mnuExport_Text" xml:space="preserve">
+    <value>地图输出(&amp;O)</value>
+  </data>
+  <data name="mnuHelp_Text" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="mnuLayer_Text" xml:space="preserve">
+    <value>图层(&amp;L)</value>
+  </data>
+  <data name="mnuLayerAttributeTable_Text" xml:space="preserve">
+    <value>属性数据表(&amp;T)</value>
+  </data>
+  <data name="mnuLayerCategories_Text" xml:space="preserve">
+    <value>Shapefile Categories(&amp;M)</value>
+  </data>
+  <data name="mnuLayerCharts_Text" xml:space="preserve">
+    <value>图表属性(&amp;C)</value>
+  </data>
+  <data name="mnuLayerLabels_Text" xml:space="preserve">
+    <value>标签属性(&amp;P)</value>
+  </data>
+  <data name="mnuLayerProperties_Text" xml:space="preserve">
+    <value>图层属性(&amp;L)</value>
+  </data>
+  <data name="mnuLayerRelabel_Text" xml:space="preserve">
+    <value>标签重载(&amp;R)</value>
+  </data>
+  <data name="mnuNextZoom_Text" xml:space="preserve">
+    <value>前进缩放(&amp;U)</value>
+  </data>
+  <data name="mnuOfflineDocs_Text" xml:space="preserve">
+    <value>本地文档(&amp;L)</value>
+  </data>
+  <data name="mnuOnlineDocs_Text" xml:space="preserve">
+    <value>在线文档(&amp;O)</value>
+  </data>
+  <data name="mnuOptionsManager_Text" xml:space="preserve">
+    <value>符号管理(&amp;S)</value>
+  </data>
+  <data name="mnuPanels_Text" xml:space="preserve">
+    <value>窗口(&amp;F)</value>
+  </data>
+  <data name="mnuPlugins_Text" xml:space="preserve">
+    <value>插件(&amp;P)</value>
+  </data>
+  <data name="mnuPreview_Text" xml:space="preserve">
+    <value>预览地图(&amp;P)</value>
+  </data>
+  <data name="mnuPreviousZoom_Text" xml:space="preserve">
+    <value>后退缩放(&amp;B)</value>
+  </data>
+  <data name="mnuPrint_Text" xml:space="preserve">
+    <value>打印(&amp;P)</value>
+  </data>
+  <data name="mnuProjectSettings_Text" xml:space="preserve">
+    <value>项目设置(&amp;C)</value>
+  </data>
+  <data name="mnuQueryLayer_Text" xml:space="preserve">
+    <value>创建查询(&amp;Q)</value>
+  </data>
+  <data name="mnuRecentProjects_Text" xml:space="preserve">
+    <value>近期项目(&amp;L)</value>
+  </data>
+  <data name="mnuRemoveLayer_Text" xml:space="preserve">
+    <value>删除图层(&amp;D)</value>
+  </data>
+  <data name="mnuSave_Text" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="mnuSaveAs_Text" xml:space="preserve">
+    <value>另存为(&amp;A)</value>
+  </data>
+  <data name="mnuSaveGeorefMapImage_Text" xml:space="preserve">
+    <value>地理引用的地图(&amp;G)</value>
+  </data>
+  <data name="mnuSaveLegend_Text" xml:space="preserve">
+    <value>Legend(&amp;L)</value>
+  </data>
+  <data name="mnuSaveMapImage_Text" xml:space="preserve">
+    <value>地图(&amp;M)</value>
+  </data>
+  <data name="mnuSaveNorthArrow_Text" xml:space="preserve">
+    <value>方向针(&amp;N)</value>
+  </data>
+  <data name="mnuSaveScaleBar_Text" xml:space="preserve">
+    <value>范围条(&amp;S)</value>
+  </data>
+  <data name="mnuScript_Text" xml:space="preserve">
+    <value>脚本(&amp;S)</value>
+  </data>
+  <data name="mnuSetScale_Text" xml:space="preserve">
+    <value>设置比例(&amp;R)</value>
+  </data>
+  <data name="mnuShortcuts_Text" xml:space="preserve">
+    <value>快捷键(&amp;S)</value>
+  </data>
+  <data name="mnuShowLegend_Text" xml:space="preserve">
+    <value>Legend(&amp;L)</value>
+  </data>
+  <data name="mnuShowPreviewMap_Text" xml:space="preserve">
+    <value>预览地图(&amp;P)</value>
+  </data>
+  <data name="mnuShowScaleBar_Text" xml:space="preserve">
+    <value>显示浮动比例尺(&amp;S)</value>
+  </data>
+  <data name="mnuUpdatePreviewCurr_Text" xml:space="preserve">
+    <value>当前视图(&amp;C)</value>
+  </data>
+  <data name="mnuUpdatePreviewFull_Text" xml:space="preserve">
+    <value>全图视图(&amp;E)</value>
+  </data>
+  <data name="mnuWelcomeScreen_Text" xml:space="preserve">
+    <value>欢迎界面(&amp;W)</value>
+  </data>
+  <data name="mnuZoomIn_Text" xml:space="preserve">
+    <value>放大(&amp;I)</value>
+  </data>
+  <data name="mnuZoomOut_Text" xml:space="preserve">
+    <value>缩小(&amp;O)</value>
+  </data>
+  <data name="mnuZoomToFullExtents_Text" xml:space="preserve">
+    <value>复位(&amp;F)</value>
+  </data>
+  <data name="mnuZoomToPreviewExtents_Text" xml:space="preserve">
+    <value>同步PreviewMap(&amp;Y)</value>
+  </data>
+  <data name="panels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\panels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paypal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\paypal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\quit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorials" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tutorials.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\welcome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charts_properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\charts_properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuView_Text" xml:space="preserve">
+    <value>视图(&amp;V)</value>
+  </data>
+  <data name="layer_properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\layer_properties.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove_all_layers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\remove_all_layers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="label_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\label_reload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bookmark_manager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_categories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_categories.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_symbology" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_symbology.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="project_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\project_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\scale_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale_bar_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\scale_bar_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\table_editor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_extentNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_extentNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_inNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_inNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_lastNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_lastNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_layerNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_layerNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_nextNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_nextNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_outNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_outNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_selectionNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom_selectionNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deselect_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\deselect_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_georeferenced" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\export_georeferenced.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\export_map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\group_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_add_ecwp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_add_ecwp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layer_query" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\layer_query.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\map_export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recent_maps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\recent_maps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\save_as.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_map_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\set_map_scale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="northArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\northArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuBugReport_Text" xml:space="preserve">
+    <value>提交bug(&amp;B)</value>
+  </data>
+  <data name="mnuPluginUpLoading_Text" xml:space="preserve">
+    <value>上传插件(&amp;U)</value>
+  </data>
+  <data name="mnuTutorials_Text" xml:space="preserve">
+    <value>新手指导(&amp;G)</value>
+  </data>
+  <data name="msgShortcutsArrowDown_Text" xml:space="preserve">
+    <value>Down Arrow - 向下移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowLeft_Text" xml:space="preserve">
+    <value>Left Arrow - 向左移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowRight_Text" xml:space="preserve">
+    <value>Right Arrow - 向右移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsArrowUp_Text" xml:space="preserve">
+    <value>Up Arrow - 向上移动地图(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsBackspace_Text" xml:space="preserve">
+    <value>BackSpace : 返回到上一次操作</value>
+  </data>
+  <data name="msgShortcutsCtrlArrows_Text" xml:space="preserve">
+    <value>Ctrl+UP, Ctrl+Down : 在Legend中转换选择的层 </value>
+  </data>
+  <data name="msgShortcutsCtrlC_Text" xml:space="preserve">
+    <value>Ctrl+C - 复制当前地图图像到剪贴板</value>
+  </data>
+  <data name="msgShortcutsCtrlEnter_Text" xml:space="preserve">
+    <value>Ctrl+Enter : 图层属性</value>
+  </data>
+  <data name="msgShortcutsCtrlF4_Text" xml:space="preserve">
+    <value>Ctrl+F4 - 关闭当前的项目</value>
+  </data>
+  <data name="msgShortcutsCtrlHome_Text" xml:space="preserve">
+    <value>Ctrl+Home - 移动到当前选择的层</value>
+  </data>
+  <data name="msgShortcutsCtrlH_Text" xml:space="preserve">
+    <value>Ctrl+H - 选择Shape/高亮显示该选择区域</value>
+  </data>
+  <data name="msgShortcutsCtrlI_Text" xml:space="preserve">
+    <value>Ctrl+I - 进入地图放大模式</value>
+  </data>
+  <data name="msgShortcutsCtrlO_Text" xml:space="preserve">
+    <value>Ctrl+O - 进入地图缩小模式</value>
+  </data>
+  <data name="msgShortcutsCtrlP_Text" xml:space="preserve">
+    <value>Ctrl+P - 打印</value>
+  </data>
+  <data name="msgShortcutsCtrlShiftI_Text" xml:space="preserve">
+    <value>Ctrl+Shift+I - 特征标识符模式</value>
+  </data>
+  <data name="msgShortcutsCtrlShiftO_Text" xml:space="preserve">
+    <value>Ctrl+Shift+O - 打开一个项目</value>
+  </data>
+  <data name="msgShortcutsCtrlM_Text" xml:space="preserve">
+    <value>Ctrl+M - 进入移动地图模式</value>
+  </data>
+  <data name="msgShortcutsCtrlSpace_Text" xml:space="preserve">
+    <value>Ctrl+Space : 在图层上启动可见性</value>
+  </data>
+  <data name="msgShortcutsCtrlS_Text" xml:space="preserve">
+    <value>Ctrl+S - 保存项目</value>
+  </data>
+  <data name="msgShortcutsDel_Text" xml:space="preserve">
+    <value>Delete - 移除当前选择的图层</value>
+  </data>
+  <data name="msgShortcutsHome_Text" xml:space="preserve">
+    <value>Home - 复位</value>
+  </data>
+  <data name="msgShortcutsIns_Text" xml:space="preserve">
+    <value>Insert - 添加一个图层</value>
+  </data>
+  <data name="msgShortcutsMinus_Text" xml:space="preserve">
+    <value>Minus - 以屏幕中心为基点缩小(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsPageDown_Text" xml:space="preserve">
+    <value>PageDown - 向下移动地图(视野的50%)</value>
+  </data>
+  <data name="msgShortcutsPageUp_Text" xml:space="preserve">
+    <value>PageUp - 向上移动地图(视野的50%)</value>
+  </data>
+  <data name="msgShortcutsPlus_Text" xml:space="preserve">
+    <value>Plus - 以屏幕中心为基点放大(视野的25%)</value>
+  </data>
+  <data name="msgShortcutsTitle_Text" xml:space="preserve">
+    <value>可用快捷键如下：</value>
+  </data>
+  <data name="mnuBookmarkAdd_Text" xml:space="preserve">
+    <value>添加书签(&amp;A)</value>
+  </data>
+  <data name="bookmarks_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bookmarks_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgSaveProject1_Text" xml:space="preserve">
+    <value>将本次修改保存到</value>
+  </data>
+  <data name="msgSaveProject2_Text" xml:space="preserve">
+    <value>本项目？</value>
+  </data>
+  <data name="formlegend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\legend.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MapPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MapPanel.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgHandleShortcutKeys_Text" xml:space="preserve">
+    <value>你确定要移除当前选择的层吗？</value>
+  </data>
+  <data name="msgPanelArea_Text" xml:space="preserve">
+    <value>面积:</value>
+  </data>
+  <data name="msgPanelDistance_Text" xml:space="preserve">
+    <value>距离:</value>
+  </data>
+  <data name="msgShortcutsCtrlR_Text" xml:space="preserve">
+    <value>Ctrl+R - 复位</value>
+  </data>
+  <data name="msgShortcutsCtrlY_Text" xml:space="preserve">
+    <value>Ctrl+Y - 前进</value>
+  </data>
+  <data name="msgShortcutsCtrlZ_Text" xml:space="preserve">
+    <value>Ctrl+Z - 后退</value>
+  </data>
+  <data name="splashPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\splashPic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgProjectInsufficientAccess_Text" xml:space="preserve">
+    <value>项目文件无法保存，因为没有足够的权限。请给与{0}足够的权限。</value>
+  </data>
+  <data name="msgProjectInsufficientAccess_Title" xml:space="preserve">
+    <value>权限限制</value>
+  </data>
+  <data name="msgProjectReadOnly_Text" xml:space="preserve">
+    <value>项目文件无法保存，因为该文件是ReadOnly。请设置{0}文件具有读写权限。</value>
+  </data>
+  <data name="msgProjectReadOnly_Title" xml:space="preserve">
+    <value>项目文件只读</value>
+  </data>
+  <data name="sbContextMenu_ChangeUnits_Text" xml:space="preserve">
+    <value>改变单位</value>
+  </data>
+  <data name="sbContextMenu_ChooseBackcolor_Text" xml:space="preserve">
+    <value>选择背景颜色</value>
+  </data>
+  <data name="sbContextMenu_ChooseForecolor_Text" xml:space="preserve">
+    <value>选择字体颜色</value>
+  </data>
+  <data name="sbContextMenu_LowerLeft_Text" xml:space="preserve">
+    <value>左下角显示</value>
+  </data>
+  <data name="sbContextMenu_LowerRight_Text" xml:space="preserve">
+    <value>右下角显示</value>
+  </data>
+  <data name="sbContextMenu_UpperLeft_Text" xml:space="preserve">
+    <value>左上角显示</value>
+  </data>
+  <data name="sbContextMenu_UpperRight_Text" xml:space="preserve">
+    <value>右上角显示</value>
+  </data>
+  <data name="mnuRemoveGroup_Text" xml:space="preserve">
+    <value>移除该组</value>
+  </data>
+  <data name="mnuZoomToGroup_Text" xml:space="preserve">
+    <value>缩放至组</value>
+  </data>
+  <data name="mnuZoomToLayer_Text" xml:space="preserve">
+    <value>缩放至图层</value>
+  </data>
+  <data name="msgDropMissingLayer_Text" xml:space="preserve">
+    <value>该项目中的一个图层没有找到，无法定位的文件是:{0}  您希望手动定位这个文件吗？ No,将从该项目中卸载该图层. Cancel,将卸载所有无法找到的图层.</value>
+  </data>
+  <data name="msgDropMissingLayer_Title" xml:space="preserve">
+    <value>未找到图层;{0}</value>
+  </data>
+  <data name="language" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\language.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuChinese_Text" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
+  <data name="mnuEnglish_Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mnuLanguages_Text" xml:space="preserve">
+    <value>语言(&amp;L)</value>
+  </data>
+</root>

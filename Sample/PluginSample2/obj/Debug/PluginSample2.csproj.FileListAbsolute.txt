@@ -1,0 +1,15 @@
+D:\MapWinGIS\MapWinGIS\PluginSample2\bin\PluginSample2.dll
+D:\MapWinGIS\MapWinGIS\PluginSample2\bin\PluginSample2.pdb
+D:\MapWinGIS\MapWinGIS\PluginSample2\bin\MapWinGIS.Interfaces.dll
+D:\MapWinGIS\MapWinGIS\PluginSample2\bin\Interop.MapWinGIS.dll
+D:\MapWinGIS\MapWinGIS\PluginSample2\bin\MapWinGIS.Interfaces.pdb
+D:\MapWinGIS\MapWinGIS\PluginSample2\obj\Debug\ResolveAssemblyReference.cache
+D:\MapWinGIS\MapWinGIS\PluginSample2\obj\Debug\PluginSample2.dll
+D:\MapWinGIS\MapWinGIS\PluginSample2\obj\Debug\PluginSample2.pdb
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\bin\PluginSample2.dll
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\bin\PluginSample2.pdb
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\bin\Interop.MapWinGIS.dll
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\bin\MapWinGIS.Interfaces.pdb
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\obj\Debug\ResolveAssemblyReference.cache
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\obj\Debug\PluginSample2.dll
+D:\MapWinGIS\MapWinGIS\Sample\PluginSample2\obj\Debug\PluginSample2.pdb

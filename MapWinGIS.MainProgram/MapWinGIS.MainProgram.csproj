@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{111F14E1-03DD-4C73-B40F-952208D14097}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapWinGIS.MainProgram</RootNamespace>
+    <AssemblyName>MapWinGIS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MapWinGIS.MainProgram.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\MapWinGIS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\AxInterop.MapWinGIS.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\bin\Interop.MapWinGIS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MapWinGIS.Controls, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\MapWinGIS.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinGIS.GeoProcess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\MapWinGIS.GeoProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.3.1.41455, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsColorScheme.cs" />
+    <Compile Include="Classes\clsDynamicVisibilityClass.cs" />
+    <Compile Include="Classes\clsGridUtils.cs" />
+    <Compile Include="Classes\clsLabelClass.cs" />
+    <Compile Include="Classes\clsMWDockPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\clsPluginManager.cs" />
+    <Compile Include="Classes\clsPluginManagementTools.cs" />
+    <Compile Include="Classes\clsSuperGrid.cs" />
+    <Compile Include="Classes\clsToolAndMenuStripEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\InterfaceImplement\clsAppInfo.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsComboBoxItem.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsDraw.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsIdentifiedLayers.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsIdentifiedShapes.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsLayer.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsLayers.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsLegendPanel.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsMenuItem.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsMenus.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsMWGProgressStatus.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsPluginInfo.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsPreviewMap.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsProject.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsReports.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsSelectedShape.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsSelectInfo.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsShape.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsShapes.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsStatusBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\InterfaceImplement\clsStatusBar.Designer.cs">
+      <DependentUpon>clsStatusBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\InterfaceImplement\clsStatusBarItem.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsToolbar.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsToolbarButton.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsUIPanel.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsUserInteraction.cs" />
+    <Compile Include="Classes\InterfaceImplement\clsView.cs" />
+    <Compile Include="Classes\Settings\clsAppSetGrid.cs" />
+    <Compile Include="Classes\Settings\clsToolStripSettings.cs" />
+    <Compile Include="Classes\Settings\clsPrjSetGrid.cs" />
+    <Compile Include="Classes\WinApi32.cs" />
+    <Compile Include="Classes\XmlProject\clsXmlLayerFile.cs" />
+    <Compile Include="Classes\XmlProject\clsXmlProjectConfig.cs" />
+    <Compile Include="Classes\XmlProject\clsXmlProjectFile.cs" />
+    <Compile Include="Classes\XmlProject\clsXmlProjectNew.cs" />
+    <Compile Include="Classes\XmlProject\clsXmlProjectOld.cs" />
+    <Compile Include="GlobalResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\ColorPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\ColorPicker.Designer.cs">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\ColorPickerSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\ColorPickerSingle.Designer.cs">
+      <DependentUpon>ColorPickerSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\LegendEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegendEditor\Forms\LegendEditorForm.Designer.cs">
+      <DependentUpon>LegendEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Load\lodApp.cs" />
+    <Compile Include="Load\lodMain.cs" />
+    <Compile Include="Load\lodNonModalMessageBox.cs" />
+    <Compile Include="Load\lodScaleBarUtils..cs" />
+    <Compile Include="MainForms\BookMarks\frmBookmarkAddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\BookMarks\frmBookmarkAddNew.Designer.cs">
+      <DependentUpon>frmBookmarkAddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\BookMarks\frmBookmarkDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\BookMarks\frmBookmarkDelete.Designer.cs">
+      <DependentUpon>frmBookmarkDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\BookMarks\frmBookmarkManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\BookMarks\frmBookmarkManager.Designer.cs">
+      <DependentUpon>frmBookmarkManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Errors\ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Errors\ErrorDialog.Designer.cs">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Errors\frmErrorDialog-NoSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Errors\frmErrorDialog-NoSend.Designer.cs">
+      <DependentUpon>frmErrorDialog-NoSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Errors\frmErrorDialogMoreInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Errors\frmErrorDialogMoreInfo.Designer.cs">
+      <DependentUpon>frmErrorDialogMoreInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmLogo.Designer.cs">
+      <DependentUpon>frmLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmPlugins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmPlugins.Designer.cs">
+      <DependentUpon>frmPlugins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmProjectSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmProjectSettings.Designer.cs">
+      <DependentUpon>frmProjectSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\frmWelcomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\frmWelcomeScreen.Designer.cs">
+      <DependentUpon>frmWelcomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Scripts\frmScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Scripts\frmScript.Designer.cs">
+      <DependentUpon>frmScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmChooseDisplayUnits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmChooseDisplayUnits.Designer.cs">
+      <DependentUpon>frmChooseDisplayUnits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmMsgBox.Designer.cs">
+      <DependentUpon>frmMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmSetScale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmSetScale.Designer.cs">
+      <DependentUpon>frmSetScale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmYesNoToAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Utility\frmYesNoToAll.Designer.cs">
+      <DependentUpon>frmYesNoToAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Classes\InterfaceImplement\clsStatusBar.resx">
+      <DependentUpon>clsStatusBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalResource.en.resx" />
+    <EmbeddedResource Include="GlobalResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LegendEditor\Forms\ColorPicker.resx">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LegendEditor\Forms\LegendEditorForm.resx">
+      <DependentUpon>LegendEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\BookMarks\frmBookmarkAddNew.resx">
+      <DependentUpon>frmBookmarkAddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\BookMarks\frmBookmarkDelete.resx">
+      <DependentUpon>frmBookmarkDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\BookMarks\frmBookmarkManager.resx">
+      <DependentUpon>frmBookmarkManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Errors\ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Errors\frmErrorDialog-NoSend.resx">
+      <DependentUpon>frmErrorDialog-NoSend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Errors\frmErrorDialogMoreInfo.resx">
+      <DependentUpon>frmErrorDialogMoreInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmLogo.resx">
+      <DependentUpon>frmLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmMain.en.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmPlugins.en.resx">
+      <DependentUpon>frmPlugins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmPlugins.resx">
+      <DependentUpon>frmPlugins.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmProjectSettings.resx">
+      <DependentUpon>frmProjectSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\frmWelcomeScreen.resx">
+      <DependentUpon>frmWelcomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Scripts\frmScript.resx">
+      <DependentUpon>frmScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Utility\frmMsgBox.resx">
+      <DependentUpon>frmMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Utility\frmSetScale.resx">
+      <DependentUpon>frmSetScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Utility\frmYesNoToAll.resx">
+      <DependentUpon>frmYesNoToAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashPic.png" />
+    <EmbeddedResource Include="Resources\measuring.ico" />
+    <EmbeddedResource Include="Resources\MapWinGISDockDefault.config" />
+    <None Include="Resources\northArrow.png" />
+    <None Include="Resources\set_map_scale.png" />
+    <None Include="Resources\save_as.png" />
+    <None Include="Resources\recent_maps.png" />
+    <None Include="Resources\map_export.png" />
+    <None Include="Resources\table_editor.png" />
+    <None Include="Resources\zoom_outNew.png" />
+    <None Include="Resources\zoom_nextNew.png" />
+    <None Include="Resources\zoom_layerNew.png" />
+    <None Include="Resources\zoom_lastNew.png" />
+    <None Include="Resources\zoom_inNew.png" />
+    <None Include="Resources\zoom_extentNew.png" />
+    <None Include="Resources\zoom_selectionNew.png" />
+    <None Include="Resources\scale_bar.png" />
+    <None Include="Resources\scale_bar_add.png" />
+    <None Include="Resources\project_settings.png" />
+    <None Include="Resources\remove_all_layers.png" />
+    <None Include="Resources\zoom_to_layer.png" />
+    <None Include="Resources\ZoomFullExtent.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\table.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\scripts.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\properties.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\plugin_go.png" />
+    <None Include="Resources\plugin_edit.png" />
+    <None Include="Resources\plugin_disabled.png" />
+    <None Include="Resources\plugin.png" />
+    <None Include="Resources\metadata.png" />
+    <None Include="Resources\map_scale.png" />
+    <None Include="Resources\map_preview.png" />
+    <None Include="Resources\map_extents.png" />
+    <None Include="Resources\pan.png" />
+    <None Include="Resources\selectNew.png" />
+    <None Include="Resources\layer_properties.png" />
+    <None Include="Resources\deselect.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\bookmark_view.png" />
+    <None Include="Resources\file_close.png" />
+    <None Include="Resources\collapse_all.png" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\copy_legend.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\expand_all.png" />
+    <None Include="Resources\export.png" />
+    <None Include="Resources\lightning.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\group_add.png" />
+    <None Include="Resources\group_remove.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\History.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\Keyboard.png" />
+    <None Include="Resources\label_setup.png" />
+    <None Include="Resources\layer_clear.png" />
+    <None Include="Resources\layer_remove.png" />
+    <None Include="Resources\map.png" />
+    <None Include="Resources\file_new.png" />
+    <None Include="Resources\file_newgroup.png" />
+    <None Include="Resources\label_relabel.png" />
+    <None Include="Resources\file_saveas.png" />
+    <None Include="Resources\file_update.png" />
+    <None Include="Resources\AppSetting.png" />
+    <None Include="Resources\bookmark_add.png" />
+    <None Include="Resources\bookmark_delete.png" />
+    <None Include="Resources\charts_properties.png" />
+    <None Include="Resources\group_expand.png" />
+    <None Include="Resources\group_collapse.png" />
+    <None Include="Resources\MapWinGIS.ico" />
+    <EmbeddedResource Include="Resources\legend.ico" />
+    <EmbeddedResource Include="Resources\MapPanel.ico" />
+    <None Include="Resources\label_properties.png" />
+    <None Include="Resources\label_reload.png" />
+    <None Include="Resources\layer_add.png" />
+    <None Include="Resources\bookmark_manager.png" />
+    <None Include="Resources\layer_categories.png" />
+    <None Include="Resources\layer_symbology.png" />
+    <None Include="Resources\deselect_all.png" />
+    <None Include="Resources\export_map.png" />
+    <None Include="Resources\export_georeferenced.png" />
+    <None Include="Resources\group_open.png" />
+    <None Include="Resources\layer_add_ecwp.png" />
+    <None Include="Resources\layer_query.png" />
+    <None Include="Resources\bookmarks_view.png" />
+    <None Include="Resources\language.png" />
+    <Content Include="Resources\MapWin_logo.ico" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\saveNew.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapWinGIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapWinGIS.Interfaces\MapWinGIS.Interfaces.csproj">
+      <Project>{02575A92-C826-4A8A-A277-12B2FC1DC063}</Project>
+      <Name>MapWinGIS.Interfaces</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MapWinGIS.Utility\MapWinGIS.Utility.csproj">
+      <Project>{7C1D9C3C-7D6E-4420-BB51-83E663ADBC94}</Project>
+      <Name>MapWinGIS.Utility</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

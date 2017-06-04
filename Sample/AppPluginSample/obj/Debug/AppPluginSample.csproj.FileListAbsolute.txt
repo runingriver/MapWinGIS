@@ -1,0 +1,13 @@
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\bin\Debug\AppPluginSample.dll
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\bin\Debug\AppPluginSample.pdb
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\bin\Debug\MapWinGIS.Interfaces.dll
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\bin\Debug\Interop.MapWinGIS.dll
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\ResolveAssemblyReference.cache
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\AppPluginSample.dll
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\AppPluginSample.pdb
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\bin\Debug\en\AppPluginSample.resources.dll
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\AppPluginSample.Global.resources
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\AppPluginSample.Global.en.resources
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\GenerateResource.read.1.tlog
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\GenerateResource.write.1.tlog
+D:\MapWinGIS\MapWinGIS\Sample\AppPluginSample\obj\Debug\en\AppPluginSample.resources.dll

@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StripDocker.BottomToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StripDocker.ContentPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StripDocker.LeftToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StripDocker.RightToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StripDocker.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleTextLabelsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Toggle text labels</value>
+  </data>
+  <data name="ContextToolStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbbNew.Text" xml:space="preserve">
+    <value> New</value>
+  </data>
+  <data name="tbbNew.ToolTipText" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbbOpen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbOpen.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="tbbOpen.ToolTipText" xml:space="preserve">
+    <value>Open project</value>
+  </data>
+  <data name="tbbSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tbbSave.ToolTipText" xml:space="preserve">
+    <value>Save project</value>
+  </data>
+  <data name="tbbPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 40</value>
+  </data>
+  <data name="tbbPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="tbbPrint.ToolTipText" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="tbbProjectSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbProjectSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 40</value>
+  </data>
+  <data name="tbbProjectSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tbbProjectSettings.ToolTipText" xml:space="preserve">
+    <value>Project Settings</value>
+  </data>
+  <data name="tlbStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 43</value>
+  </data>
+  <data name="tlbStandard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbbAddLayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbAddLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 40</value>
+  </data>
+  <data name="tbbAddLayer.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tbbAddLayer.ToolTipText" xml:space="preserve">
+    <value>Add a layer</value>
+  </data>
+  <data name="tbbRemoveLayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbRemoveLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 40</value>
+  </data>
+  <data name="tbbRemoveLayer.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="tbbRemoveLayer.ToolTipText" xml:space="preserve">
+    <value>Remove current layer</value>
+  </data>
+  <data name="tbbClearLayers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbClearLayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 40</value>
+  </data>
+  <data name="tbbClearLayers.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="tbbClearLayers.ToolTipText" xml:space="preserve">
+    <value>Clear all Layers</value>
+  </data>
+  <data name="tbbSymbologyManager.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbSymbologyManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 40</value>
+  </data>
+  <data name="tbbSymbologyManager.Text" xml:space="preserve">
+    <value>Symbology</value>
+  </data>
+  <data name="tbbSymbologyManager.ToolTipText" xml:space="preserve">
+    <value>Symbology manerger</value>
+  </data>
+  <data name="tbbLayerProperties.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbLayerProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 40</value>
+  </data>
+  <data name="tbbLayerProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="tbbLayerProperties.ToolTipText" xml:space="preserve">
+    <value>Layer properties</value>
+  </data>
+  <data name="tlbLayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 43</value>
+  </data>
+  <data name="tlbLayers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbbSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 40</value>
+  </data>
+  <data name="tbbSelect.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="tbbSelect.ToolTipText" xml:space="preserve">
+    <value>Select shape</value>
+  </data>
+  <data name="tbbDeSelectLayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbDeSelectLayer.Text" xml:space="preserve">
+    <value>Deselect</value>
+  </data>
+  <data name="tbbDeSelectLayer.ToolTipText" xml:space="preserve">
+    <value>Deselect Shape</value>
+  </data>
+  <data name="tlbMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 43</value>
+  </data>
+  <data name="tlbMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbbPan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 40</value>
+  </data>
+  <data name="tbbPan.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="tbbPan.ToolTipText" xml:space="preserve">
+    <value>pan</value>
+  </data>
+  <data name="tbbZoomIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 40</value>
+  </data>
+  <data name="tbbZoomIn.Text" xml:space="preserve">
+    <value>ZoomIn</value>
+  </data>
+  <data name="tbbZoomIn.ToolTipText" xml:space="preserve">
+    <value>ZoomIn</value>
+  </data>
+  <data name="tbbZoomOut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 40</value>
+  </data>
+  <data name="tbbZoomOut.Text" xml:space="preserve">
+    <value>ZoomOut</value>
+  </data>
+  <data name="tbbZoomOut.ToolTipText" xml:space="preserve">
+    <value>ZoomOut</value>
+  </data>
+  <data name="tbbZoomExtent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomExtent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 40</value>
+  </data>
+  <data name="tbbZoomExtent.Text" xml:space="preserve">
+    <value>Extent</value>
+  </data>
+  <data name="tbbZoomSelected.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 40</value>
+  </data>
+  <data name="tbbZoomSelected.Text" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="tbbZoomSelected.ToolTipText" xml:space="preserve">
+    <value>Foucs Selected Shape</value>
+  </data>
+  <data name="tbbZoomPrevious.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 40</value>
+  </data>
+  <data name="tbbZoomPrevious.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="tbbZoomPrevious.ToolTipText" xml:space="preserve">
+    <value>Zoom previous</value>
+  </data>
+  <data name="tbbZoomNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="tbbZoomNext.ToolTipText" xml:space="preserve">
+    <value>Zoom next</value>
+  </data>
+  <data name="tbbZoomLayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="tbbZoomLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 40</value>
+  </data>
+  <data name="tbbZoomLayer.Text" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="tbbZoomLayer.ToolTipText" xml:space="preserve">
+    <value>Focus current layer</value>
+  </data>
+  <data name="tlbZoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 86</value>
+  </data>
+  <data name="tlbZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 43</value>
+  </data>
+  <data name="tlbZoom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StripDocker.TopToolStripPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuAddGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuAddGroup.Text" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="mnuAddLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuAddLayer.Text" xml:space="preserve">
+    <value>Add Layer</value>
+  </data>
+  <data name="mnuRemoveLayerOrGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuRemoveLayerOrGroup.Text" xml:space="preserve">
+    <value>Remove Layer</value>
+  </data>
+  <data name="mnuClearLayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuClearLayers.Text" xml:space="preserve">
+    <value>Clear Layer</value>
+  </data>
+  <data name="mnuZoomToLayerOrGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuZoomToLayerOrGroup.Text" xml:space="preserve">
+    <value>Zoom To Layer</value>
+  </data>
+  <data name="mnuRelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuRelabel.Text" xml:space="preserve">
+    <value>Relabel</value>
+  </data>
+  <data name="mnuLabelSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuLabelSetup.Text" xml:space="preserve">
+    <value>Label SetUp</value>
+  </data>
+  <data name="mnuChartsSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuChartsSetup.Text" xml:space="preserve">
+    <value>Chart SetUp</value>
+  </data>
+  <data name="mnuSeeMetadata.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuSeeMetadata.Text" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="mnuLegendShapefileCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuLegendShapefileCategories.Text" xml:space="preserve">
+    <value>Shapefile Catorgories</value>
+  </data>
+  <data name="mnuTableEditorLaunch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuTableEditorLaunch.Text" xml:space="preserve">
+    <value>Table Editor</value>
+  </data>
+  <data name="mnuSaveAsLayerFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuSaveAsLayerFile.Text" xml:space="preserve">
+    <value>Symbology</value>
+  </data>
+  <data name="mnuExpandGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuExpandGroups.Text" xml:space="preserve">
+    <value>Expand Group</value>
+  </data>
+  <data name="mnuExpandAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuExpandAll.Text" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="mnuCollapseGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuCollapseGroups.Text" xml:space="preserve">
+    <value>Collapse Group</value>
+  </data>
+  <data name="mnuCollapseAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuCollapseAll.Text" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="mnuProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="mnuProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="mnuLegend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 396</value>
+  </data>
+  <data name="mnuLegend.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuBtnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="mnuBtnAdd.Text" xml:space="preserve">
+    <value>Add Layer</value>
+  </data>
+  <data name="mnuBtnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="mnuBtnRemove.Text" xml:space="preserve">
+    <value>Remove Layer</value>
+  </data>
+  <data name="mnuBtnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 22</value>
+  </data>
+  <data name="mnuBtnClear.Text" xml:space="preserve">
+    <value>Clear Layer</value>
+  </data>
+  <data name="mnuLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 70</value>
+  </data>
+  <data name="mnuLayerButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuZoomIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomIn.Text" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="mnuZoomOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomOut.Text" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="mnuZoomPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomPan.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="mnuZoomMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomMax.Text" xml:space="preserve">
+    <value>Extents</value>
+  </data>
+  <data name="mnuZoomPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomPrevious.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="mnuZoomNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="mnuSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuSelect.Text" xml:space="preserve">
+    <value>Select Shape</value>
+  </data>
+  <data name="mnuZoomShape.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomShape.Text" xml:space="preserve">
+    <value>Focus Shape</value>
+  </data>
+  <data name="mnuZoomPreviewMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomPreviewMap.Text" xml:space="preserve">
+    <value>Update Preview</value>
+  </data>
+  <data name="mnuZoomLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="mnuZoomLayer.Text" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="mnuZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 258</value>
+  </data>
+  <data name="mnuZoom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MapPreview.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAFAAAAAIAAQAVgoAACsFAAAAAAAA////AHsUrkfhepQ/AAAzMzMzMzPTPwAA
+        AAAAFAAAAAEAAAAAAAAAAADgPwAAAQAAAAAAAAAAAAADAAAABgAAAAs=
+</value>
+  </data>
+  <data name="MapPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MapMain.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAZQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAFAAAAAIAAQAVgoAACsFAAAAAAAA////AHsUrkfhepQ/AAAzMzMzMzPTPwAA
+        AAAAFAAAAAEAAAAAAAAAAADgPwAAAQAAAAAAAAAAAAADAAAABgAAAAs=
+</value>
+  </data>
+  <data name="MapMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuPreviewExtents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="mnuPreviewExtents.Text" xml:space="preserve">
+    <value>Full Extents</value>
+  </data>
+  <data name="mnuPreviewCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="mnuPreviewCurrent.Text" xml:space="preserve">
+    <value>Current Extents</value>
+  </data>
+  <data name="mnuPreviewClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="mnuPreviewClear.Text" xml:space="preserve">
+    <value>Clear Preview</value>
+  </data>
+  <data name="PreviewMapContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 70</value>
+  </data>
+  <data name="PreviewMapContextMenuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
