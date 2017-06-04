@@ -6,8 +6,14 @@ xxx原因，将MapWindow 用C#进行重构，并优化其中很多的细节。
 
 ## 使用
 1. 本程序是一个桌面程序，底层依赖MapWinGIS.ocx。
-2. 安装MapWinGIS.ocx。最简单的方法先安装MapWindow 4.x。
+2. 安装MapWinGIS.ocx。最简单的方法先安装MapWindow 4.x(即：MapWindowx86Full-v488SR-installer.exe)。
 3. 运行代码中bin目录下的MapWinGIS.exe。
+
+## 项目介绍
+1. MapWinGIS.MainProgram 桌面程序主目录，源代码目录。
+2. MapWinGIS.Utility，MapWinGIS.GeoProcess，MapWinGIS.Controls插件。
+3. MapWinGIS.Interfaces插件接口。
+5. IDE Visual Studio 10 下面开发。
 
 ## 目的
 1. 对源软件进行了一次重构升级，使得软件用起来更加顺手。
