@@ -25,4 +25,4 @@ Tip:重构这个开源软件时还未在开源在github上,且不知道如何反
 
 ## 重构后的结果如下
 
-![image](https://github.com/runingriver/MapWinGIS/tree/master/images/gis.png)
+![image](https://github.com/runingriver/MapWinGIS/blob/master/images/gis.png)
