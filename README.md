@@ -22,3 +22,7 @@ Tip:重构这个开源软件时还未在开源在github上,且不知道如何反
 2. 可以作为学习插件式程序开发的一个参考,深入理解插件式程序开发的底层原理，且添加了比较详细的注释说明。
 3. 可以作为学习用C#写桌面程序的一个参考。
 4. 学习GIS桌面软件开发,学习基于GIS软件二次开发的原理!
+
+## 重构后的结果如下
+
+![image](https://github.com/runingriver/MapWinGIS/tree/master/images/gis.png)
